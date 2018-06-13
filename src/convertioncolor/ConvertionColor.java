@@ -12,7 +12,7 @@ public class ConvertionColor {
         int G = 0;//Blue
         int B = 0;//Green
         
-        //Begin the formule
+        //Begin the formula
         int C = V * S;
 
         int X = C * (1 - Math.abs((H / 60) % 2 - 1));
@@ -56,7 +56,7 @@ public class ConvertionColor {
             B = (X + m) * 255;
 
         }
-         //End the formule
+         //End the formula
          
          //print the RGB
         System.out.println(R);
@@ -66,3 +66,5 @@ public class ConvertionColor {
     }
 
 }
+
+//LINK to formula
